@@ -1,0 +1,24 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto
+_site/
+_cache/
+_main.qmd
+*.qmd.bak  # Archivos temporales de Quarto
+
+# Zotero
+*.bib.bak
+*.csl.bak
+
+# Archivos generales
+.DS_Store
+Thumbs.db
+
+# Academic (de GitHub)
+*.aux
+*.log
+*.out
+*.synctex.gz
