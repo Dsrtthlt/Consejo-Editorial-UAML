@@ -1,0 +1,31 @@
+-   <div>
+
+    ---
+    title: La Palma Earthquakes
+    author:
+      - name:
+        roles:
+        affiliation:
+          - affiliation 1
+          - affiliation 2
+    email: ""
+    url: ""
+    orcid: ""
+    note:
+    acknowledgements:
+    abstract: |
+    keywords:""
+    copyright: ""
+    licence: ""
+    citation:
+      type: article-journal
+      container-title: "Analitica"
+      url: http://revista-csh.ler.uam.mx/index.php/rda/index
+      page-first: 1
+      page-last: 3
+      editor: "Nombre del Editor"
+    bibliography: ""
+    google-scholar: true
+    ---
+
+    </div>
