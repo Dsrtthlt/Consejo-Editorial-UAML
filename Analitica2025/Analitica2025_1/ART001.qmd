@@ -12,7 +12,7 @@ author:
 date: last-modified
 date-format: "[Última actulización] DD, MMMM, YYYY"
 abstract: "El presente trabajo propone que los abordajes de teorías de comunicación contemporáneos son indisociables del capitalismo cognitivo y de la gubernamentalidad algorítmica como un dispositivo de poder para la actividad humana. Para dar cuenta de ello, y desde la perspectiva de la economía política de la comunicación, en la primera parte se mencionan las fases históricas del capitalismo, explicando la incidencia que en ellas han tenido los tipos de subsunción del trabajo al capital y su relación con el fordismo/taylorismo. En la segunda se explica el origen y concepto del capitalismo cognitivo, así como el papel del trabajo vivo, la comunicación y la subjetividad en la configuración de un orden tecnoliberal, inteligible con el concepto de gubernamentalidad algorítmica. En un tercer momento se relaciona esta forma de gubernamentalidad con la expansión de las tecnologías de información y comunicación y el predominio de dos racionalidades, una de control estratégico-universal y otra social tecnológica, propiciando una multiplicidad de encuentros entre subjetividades cuyas imbricaciones se abordan en el presente en diversas teorías de comunicación."
-keywords: ["Capitalismo cognitivo, gubernamentalidad algorítmica. comunicación y  subjetividad"]
+keywords: ["Capitalismo cognitivo, Gubernamentalidad algorítmica. Comunicación y  subjetividad"]
 toc: true
 linestretch: 2cm
 bibliography: ART001.bib
@@ -35,6 +35,8 @@ format:
       name: An@litica
     include-in-header:
       text: |
+        \usepackage{fontsize}
+        \changefontsize{11.5pt}
         \usepackage[svgnames, dvipsnames, table]{xcolor} %personalizar colores
         \definecolor{Pantone253C}{HTML}{AD25A8} % Color de la UAM Lerma
         \usepackage{scrlayer-scrpage} %editar lineas de encabezados y pies
