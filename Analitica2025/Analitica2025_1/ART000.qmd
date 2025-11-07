@@ -9,7 +9,8 @@ author:
     affiliation: "Universidad Autónoma Metropolitana, Lerma"
     email: "efebve@gmail.com"
     url: "https://fernandobeltrannieves.com/"
-date: ""
+date: last-modified
+date-format: "[Última actulización] DD, MMMM, YYYY"
 toc: true
 citation:
   type: article-journal
@@ -24,17 +25,12 @@ format:
     smooth-scroll: true
     page-layout: article
   pdf:
-    documentclass: article
-    classoption: a4paper, 11pt
-    lof: false
-    lot: false
     toc: false
-    geometry: margin=2.5cm
-    colorlinks: true
-    keep-text: true
-    pdf-engine: xelatex
     linestretch: 2
-    numbersections: false
+    jss-pdf:
+      name: An@litica
+  docx:
+    toc: false
 ---
 
 ## Presentación general

@@ -1,0 +1,56 @@
+---
+title: "Capitalismo cognitivo, gubernamentalidad algorítmica y abordajes de la comunicación"
+subtitle: "Cognitive Capitalism, Algorithmic Governmentality, and Approaches to Communication"
+author: 
+  - name: "Miguel Ángel Mata Salazar"
+    degrees: "Dr."
+    orcid: "0000-0000-0000-0000"
+    affiliation: "Universidad Pedagógica Nacional"
+    corresponding: true
+    email: "mmata@upn.mx"
+    url: ""
+date: last-modified
+date-format: "[Última actulización] DD, MMMM, YYYY"
+abstract: "El presente trabajo propone que los abordajes de teorías de comunicación contemporáneos son indisociables del capitalismo cognitivo y de la gubernamentalidad algorítmica como un dispositivo de poder para la actividad humana. Para dar cuenta de ello, y desde la perspectiva de la economía política de la comunicación, en la primera parte se mencionan las fases históricas del capitalismo, explicando la incidencia que en ellas han tenido los tipos de subsunción del trabajo al capital y su relación con el fordismo/taylorismo. En la segunda se explica el origen y concepto del capitalismo cognitivo, así como el papel del trabajo vivo, la comunicación y la subjetividad en la configuración de un orden tecnoliberal, inteligible con el concepto de gubernamentalidad algorítmica. En un tercer momento se relaciona esta forma de gubernamentalidad con la expansión de las tecnologías de información y comunicación y el predominio de dos racionalidades, una de control estratégico-universal y otra social tecnológica, propiciando una multiplicidad de encuentros entre subjetividades cuyas imbricaciones se abordan en el presente en diversas teorías de comunicación."
+keywords: ["Capitalismo cognitivo, gubernamentalidad algorítmica. comunicación y  subjetividad"]
+toc: true
+linestretch: 2cm
+bibliography: ART001.bib
+csl: apa-6th-edition-no-ampersand.csl
+citation:
+  type: article-journal
+  container-title: "Analitica"
+  url: http://revista-csh.ler.uam.mx/index.php/rda/index
+  page-first: 4
+  editor: "Fernando Beltrán Nieves"
+google-scholar: true
+format:
+  html:
+    smooth-scroll: true
+    page-layout: article
+  pdf:
+    toc: false
+    linestretch: 1
+    jss-pdf:
+      name: An@litica
+    include-in-header:
+      text: |
+        \usepackage[svgnames, dvipsnames, table]{xcolor} %personalizar colores
+        \definecolor{Pantone253C}{HTML}{AD25A8} % Color de la UAM Lerma
+        \usepackage{scrlayer-scrpage} %editar lineas de encabezados y pies
+        \clearpairofpagestyles %limpiar estilos predeterminados de página
+        \pagestyle{scrheadings}
+        \setkomafont{pagehead}{\sffamily\normalfont}
+        \rohead{Capitalismo Cognitivo}
+        \ihead{Mata Salazar}
+        \setkomafont{pagefoot}{\sffamily\normalfont}
+        \ifoot{\vspace{-5pt} AN@LÍTICA | Vol. 6, Num. 6}
+        \ofoot{\vspace{10pt} \pagemark}
+        \KOMAoptions{headsepline=1pt, footsepline=1pt}
+        \addtokomafont{headsepline}{\color{Pantone253C}} %editar colores de líneas
+        \addtokomafont{footsepline}{\color{Pantone253C}}
+        \addtokomafont{pagenumber}{\color{Pantone253C}} %editar color del número de página
+        \usepackage{fontspec}  %cambiar fuente de encabezado y pie
+        \setmainfont{Arial} %asugnar Arial como fuente sin serifa
+  docx: default
+---
