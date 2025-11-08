@@ -30,7 +30,7 @@ format:
     page-layout: article
   pdf:
     toc: false
-    linestretch: 1
+    linestretch: 1.5
     jss-pdf:
       name: An@litica
     include-in-header:
