@@ -19,7 +19,7 @@ bibliography: ART001.bib
 csl: apa-6th-edition-no-ampersand.csl
 citation:
   type: article-journal
-  container-title: "Analitica"
+  container-title: "An@litica"
   url: http://revista-csh.ler.uam.mx/index.php/rda/index
   page-first: 4
   editor: "Fernando Beltrán Nieves"
@@ -35,25 +35,27 @@ format:
       name: An@litica
     include-in-header:
       text: |
-        \usepackage{fontsize}
-        \changefontsize{11.5pt}
-        \usepackage[svgnames, dvipsnames, table]{xcolor} %personalizar colores
-        \definecolor{Pantone253C}{HTML}{AD25A8} % Color de la UAM Lerma
-        \usepackage{scrlayer-scrpage} %editar lineas de encabezados y pies
-        \clearpairofpagestyles %limpiar estilos predeterminados de página
-        \pagestyle{scrheadings}
-        \setkomafont{pagehead}{\sffamily\normalfont}
-        \rohead{Capitalismo Cognitivo}
-        \ihead{Mata Salazar}
-        \setkomafont{pagefoot}{\sffamily\normalfont}
-        \ifoot{\vspace{-5pt} AN@LÍTICA | Vol. 6, Num. 6}
-        \ofoot{\vspace{10pt} \pagemark}
-        \KOMAoptions{headsepline=1pt, footsepline=1pt}
-        \addtokomafont{headsepline}{\color{Pantone253C}} %editar colores de líneas
-        \addtokomafont{footsepline}{\color{Pantone253C}}
-        \addtokomafont{pagenumber}{\color{Pantone253C}} %editar color del número de página
-        \usepackage{fontspec}  %cambiar fuente de encabezado y pie
-        \setmainfont{Arial} %asugnar Arial como fuente sin serifa
+        \usepackage{fontsize} %%%%%
+        \changefontsize{12pt} %%%%%
+        \usepackage{setspace} %%%%%
+        \onehalfspacing %%%%%
+        \usepackage[svgnames, dvipsnames, table]{xcolor} %personalizar colores %%%%%
+        \definecolor{Pantone253C}{HTML}{AD25A8} % Color de la UAM Lerma  %%%%%
+        \usepackage{scrlayer-scrpage} %editar lineas de encabezados y pies %%%%%
+        \clearpairofpagestyles %limpiar estilos predeterminados de página %%%%%
+        \pagestyle{scrheadings} %%%%%
+        \setkomafont{pagehead}{\sffamily\normalfont} %%%%%
+        \ihead{Mata Salazar} %%%%%
+        \rohead{Capitalismo Cognitivo} %%%%%
+        \setkomafont{pagefoot}{\sffamily\normalfont} %%%%%
+        \ifoot{\vspace{-5pt} AN@LÍTICA | Vol. 6, Num. 6} %%%%%
+        \ofoot{\vspace{10pt} \pagemark} %%%%%
+        \KOMAoptions{headsepline=1pt, footsepline=1pt} 
+        \addtokomafont{headsepline}{\color{Pantone253C}} %editar colores de líneas %%%%%
+        \addtokomafont{footsepline}{\color{Pantone253C}} %%%%%
+        \addtokomafont{pagenumber}{\color{Pantone253C}} %editar color del número de página %%%%%
+        \usepackage{fontspec}  %cambiar fuente de encabezado y pie %%%%%
+        \setmainfont{Arial} %asugnar Arial como fuente sin serifa %%%%%
   docx: default
 ---
 

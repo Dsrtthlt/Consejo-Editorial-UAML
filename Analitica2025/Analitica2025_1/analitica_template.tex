@@ -1,0 +1,22 @@
+\def\latexdocument{
+\maketitle
+\thispagestyle{empty} % Opcional: quitar encabezado/pie en la portada
+\begin{center}
+  {\Large \textbf{Autores}} \\
+  \vspace{0.5cm}
+  \foreachauthor{
+    \textbf{\authorname} \\
+    \textit{\authordegrees} \\
+    \href{https://orcid.org/\authororcid}{\textcolor{orcid}{\faOrcid \ \authororcid}} \\
+    \authoraffiliation \\
+    \ifauthorcorresponding{
+      \textbf{Correo correspondencia:} \email{\authoremail} \\
+    }{
+      \textit{\authoremail} \\
+    }
+    \vspace{1cm}
+  }
+\end{center}
+\newpage
+$body$
+}

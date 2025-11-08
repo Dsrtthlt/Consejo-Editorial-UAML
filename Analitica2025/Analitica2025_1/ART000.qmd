@@ -9,6 +9,8 @@ author:
     affiliation: "Universidad Autónoma Metropolitana, Lerma"
     email: "efebve@gmail.com"
     url: "https://fernandobeltrannieves.com/"
+languaje: ES
+linestretch: 2cm
 date: last-modified
 date-format: "[Última actulización] DD, MMMM, YYYY"
 toc: true
@@ -26,11 +28,34 @@ format:
     page-layout: article
   pdf:
     toc: false
-    linestretch: 2
+    linestretch: 1
     jss-pdf:
       name: An@litica
-  docx:
-    toc: false
+    include-in-header:
+      text: |
+        \usepackage[]{babel}
+        \usepackage{fontsize}
+        \changefontsize{12pt}
+        \usepackage{setspace}
+        \onehalfspacing
+        \usepackage[svgnames, dvipsnames, table]{xcolor} %personalizar colores
+        \definecolor{Pantone253C}{HTML}{AD25A8} % Color de la UAM Lerma
+        \usepackage{scrlayer-scrpage} %editar lineas de encabezados y pies
+        \clearpairofpagestyles %limpiar estilos predeterminados de página
+        \pagestyle{scrheadings}
+        \setkomafont{pagehead}{\sffamily\normalfont}
+        \ihead{\vspace{-5pt} Beltrán Nieves}
+        \rohead{\vspace{5pt} Presentación General}
+        \setkomafont{pagefoot}{\sffamily\normalfont}
+        \ifoot{\vspace{-5pt} AN@LÍTICA | Vol. 6, Num. 6}
+        \ofoot{\vspace{10pt} \pagemark}
+        \KOMAoptions{headsepline=1pt, footsepline=1pt}
+        \addtokomafont{headsepline}{\color{Pantone253C}} %editar colores de líneas
+        \addtokomafont{footsepline}{\color{Pantone253C}}
+        \addtokomafont{pagenumber}{\color{Pantone253C}} %editar color del número de página
+        \usepackage{fontspec}  %cambiar fuente de encabezado y pie
+        \setmainfont{Arial} %asugnar Arial como fuente sin serifa
+  docx: default
 ---
 
 ## Presentación general
