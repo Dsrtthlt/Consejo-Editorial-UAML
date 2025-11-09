@@ -1,0 +1,60 @@
+---
+title: "Un título"
+subtitle: "Un subtítulo"
+editor: visual
+author: 
+  - name: "Omar Pérez"
+    degrees: "Grado"
+    orcid: ""
+    affiliation:
+      name: "Una institución"
+      url: ""
+    corresponding: true
+    email: "correo.del.autor@cuenta.com"
+    url: ""
+date: last-modified
+date-format: "[Última actulización] DD, MMMM, YYYY"
+abstract: "Un resumen"
+keywords: ["Varias, palabras, clave"]
+toc: true
+linestretch: 2cm
+linkcolor: "#AD25A8"
+lang: "en"
+bibliography: "ART002.bib"
+nocite: ""
+csl: apa-6th-edition-no-ampersand.csl
+citation:
+  type: article-journal
+  container-title: "Analitica"
+  url: http://revista-csh.ler.uam.mx/index.php/rda/index
+  page-first: 4
+  editor: "Nombre Del Editor del Dossier"
+google-scholar: true
+format:
+  html:
+    smooth-scroll: true
+    page-layout: article
+  pdf:
+    toc: false
+    linestretch: 1
+    jss-pdf:
+      name: An@litica
+    include-in-header:
+      text: |
+        \usepackage{orcidlink}
+        \usepackage{fontsize}
+        \changefontsize{12pt}
+        \usepackage{setspace}
+        \onehalfspacing
+         \usepackage{fontspec}  %cambiar fuente de encabezado y pie
+        \setmainfont{Arial} %asignar Arial como fuente sin serifa
+  epub: default
+---
+
+## Plantilla
+
+-   Un texto con una referencia [@Raine2012].
+
+-   [Un enlace](https://www.datacamp.com/cheat-sheet/quarto-cheat-sheet-previously-known-as-r-markdown)
+
+## Bibliografía
