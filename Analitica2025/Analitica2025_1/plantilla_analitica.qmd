@@ -4,51 +4,65 @@ subtitle: "Un subtítulo"
 editor: visual
 author: 
   - name: "Omar Pérez"
-    degrees: "Grado"
-    orcid: ""
-    affiliation:
-      name: "Una institución"
-      url: ""
+    affiliation: "Una institución"
     corresponding: true
     email: "correo.del.autor@cuenta.com"
     url: ""
 date: last-modified
 date-format: "[Última actulización] DD, MMMM, YYYY"
-abstract: "Un resumen"
-keywords: ["Varias, palabras, clave"]
-toc: true
-linestretch: 2cm
-linkcolor: "#AD25A8"
-lang: "en"
-bibliography: "ART002.bib"
-nocite: ""
-csl: apa-6th-edition-no-ampersand.csl
-citation:
-  type: article-journal
-  container-title: "Analitica"
-  url: http://revista-csh.ler.uam.mx/index.php/rda/index
-  page-first: 4
-  editor: "Nombre Del Editor del Dossier"
-google-scholar: true
+abstract: |
+  Este es un resumen
 format:
-  html:
-    smooth-scroll: true
-    page-layout: article
-  pdf:
-    toc: false
-    linestretch: 1
-    jss-pdf:
-      name: An@litica
-    include-in-header:
-      text: |
-        \usepackage{orcidlink}
-        \usepackage{fontsize}
-        \changefontsize{12pt}
-        \usepackage{setspace}
-        \onehalfspacing
-         \usepackage{fontspec}  %cambiar fuente de encabezado y pie
-        \setmainfont{Arial} %asignar Arial como fuente sin serifa
-  epub: default
+ html:
+  respect-user-color-scheme: true
+  toc: true
+  lof: true
+  lot: true
+  number-sections: false
+  fontsize: 13pt
+  linestretch: 2
+  linkcolor: rgb(173, 37, 168)
+  theme:
+    light: lux
+    dark: darkly
+  keywords: "Unas, Cuantas, Palabras, Clave"
+  lang: es
+  date-format: "[Última actulización] DD, MMMM, YYYY"
+ pdf:
+  template-partials: 
+   - before-body.tex
+   - _affiliations.tex
+  date: last-modified
+  date-format: DD, MMMM, YYYY
+  toc: false
+  linestretch: 1.5
+  jss-pdf:
+   name: An@litica
+  include-in-header: 
+    text: |
+     \usepackage{fontsize} %%%%%
+     \changefontsize{11.5pt} %%%%%
+     \usepackage{setspace} %%%%%
+     \onehalfspacing %%%%%
+     \usepackage{fontspec}  %cambiar fuente de encabezado y pie %%%%%
+     \setmainfont{Arial} %asugnar Arial como fuente sin serifa %%%%%
+     \usepackage[affil-it]{authblk}
+     \usepackage[svgnames, dvipsnames, table]{xcolor} %personalizar colores %%%%%
+     \definecolor{Pantone253C}{HTML}{AD25A8} % Color de la UAM Lerma  %%%%%
+     \usepackage{scrlayer-scrpage} %editar lineas de encabezados y pies %%%%%
+     \clearpairofpagestyles %limpiar estilos predeterminados de página %%%%%
+     \pagestyle{scrheadings} %%%%%
+     \setkomafont{pagehead}{\sffamily\normalfont} %%%%%
+     \ihead{Mata Salazar} %%%%%
+     \rohead{Capitalismo Cognitivo} %%%%%
+     \setkomafont{pagefoot}{\sffamily\normalfont} %%%%%
+     \ifoot{\vspace{-5pt} AN@LÍTICA | Vol. 6, Num. 6} %%%%%
+     \ofoot{\vspace{10pt} \pagemark} %%%%%
+     \KOMAoptions{headsepline=0.1pt, footsepline=0.1pt} 
+     \addtokomafont{headsepline}{\color{Pantone253C}} %editar colores de líneas %%%%%
+     \addtokomafont{footsepline}{\color{Pantone253C}} %%%%%
+     \addtokomafont{pagenumber}{\color{Pantone253C}} %editar color del número de página %%%%%
+ epub: default
 ---
 
 ## Plantilla
@@ -56,5 +70,35 @@ format:
 -   Un texto con una referencia [@Raine2012].
 
 -   [Un enlace](https://www.datacamp.com/cheat-sheet/quarto-cheat-sheet-previously-known-as-r-markdown)
+
+## Texto al azar
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum accumsan semper. Duis tempus laoreet nisl, sit amet aliquet enim porta vitae. Etiam vitae leo eu diam molestie euismod. Suspendisse convallis bibendum varius. Morbi non lorem ex. Sed laoreet ullamcorper massa vitae sollicitudin. Quisque malesuada elementum leo, volutpat bibendum sapien lobortis in. Donec lacinia accumsan viverra.
+
+### dolor dolor
+
+Suspendisse potenti. Etiam finibus diam turpis, ac efficitur nunc consectetur ac. Vestibulum eleifend aliquet eleifend. Quisque sed ante nec mauris consequat egestas. Fusce at porttitor nunc. Duis ut elit pellentesque tortor rutrum porta. Sed quis congue augue, at venenatis lacus. Maecenas semper ipsum vel lorem pulvinar imperdiet. Nulla rutrum purus in erat lacinia iaculis. In ac bibendum urna. Ut non dolor non risus aliquet vestibulum. Fusce a aliquam ex. Nulla faucibus tincidunt iaculis. Fusce a turpis iaculis, eleifend velit ut, vehicula dui. Integer auctor felis et dictum pretium.
+
+Duis sollicitudin ipsum ac leo eleifend semper. Fusce et dictum leo. Donec porta, magna vel congue ornare, est arcu commodo nunc, a commodo justo nulla quis libero. Nulla pellentesque diam eget ligula ultrices, non iaculis orci gravida. Vestibulum eget molestie felis. Phasellus sem velit, dignissim vel rhoncus eget, ultrices vitae leo. Curabitur et imperdiet leo. Fusce consectetur blandit eros a rutrum. Mauris sollicitudin maximus sollicitudin. Curabitur volutpat viverra nisl, a placerat ex. Mauris feugiat justo sed leo ornare, id vulputate libero faucibus. In at lacus elementum, fermentum orci nec, dictum diam. Nunc sit amet semper nulla, eget fringilla mi.
+
+## Más dolor
+
+Ut at consequat nisi. Integer porttitor vitae tellus id imperdiet. Maecenas vehicula convallis aliquet. Suspendisse eget lectus in ligula accumsan bibendum. Donec rhoncus suscipit leo non ultrices. Aenean nulla urna, feugiat eu turpis feugiat, commodo fringilla nunc. In odio sapien, rutrum in tempus in, tincidunt eget tellus. Nam ante nisl, facilisis ut risus in, volutpat dapibus ligula. Vestibulum commodo libero et purus varius sagittis vel tempor elit. Vestibulum viverra elit leo, at gravida odio consequat a. Nulla dictum tellus mi, et mattis orci volutpat eu. In ac egestas metus, eu lacinia dui. Vestibulum placerat, libero eget ullamcorper egestas, tellus metus condimentum libero, at consequat tellus est in tortor. Aliquam eget ornare quam. Nam id finibus sapien, vel posuere leo.
+
+Nam sit amet convallis dui. Pellentesque egestas nunc eu mauris feugiat, sed dapibus nulla luctus. Sed euismod iaculis accumsan. Fusce nibh orci, placerat id suscipit nec, mattis quis dui. Aliquam tincidunt nisl vel elementum dapibus. Quisque volutpat purus nulla. Morbi maximus sapien quam, in suscipit nisl euismod quis. Ut bibendum vehicula lectus, ut finibus sem venenatis quis. Vestibulum et dictum eros, ac laoreet elit. Integer sed porta magna, sed facilisis est. Vivamus consequat augue id interdum imperdiet. Sed sed interdum urna, non mollis velit. Vestibulum blandit ex sit amet justo elementum, eget sagittis ipsum dignissim. Aenean ac vulputate augue, sit amet mattis nisi.
+
+### Una tabla
+
+| **Categoría** | **Descripción** | **Código** |
+|-----------------|-----------------------------------------|---------------|
+|  | **FORMAL** |  |
+| Página institucional primaria | Sitio donde está adscripto el académico como investigador | F_PIp |
+| Página institucional secundaria | Sitio donde está adscripto el académico como docente o realizando otras funciones | F_PIs |
+| Repositorios Institucionales | Repositorios o base de datos institucionales | F_RepoIns |
+|  | **INFORMAL** |  |
+| Linkedin homónimo | Nombre homónimo. No pertenece al investigador | I_Lh |
+| Linkedin | El titular de la cuenta es el investigador | I_Linkedin |
+| Google Scholar | El titular de la cuenta es el investigador | I_GS |
+| Sitios homónimos en general | Sitio homónimo en general | I_homonimo |
 
 ## Bibliografía
