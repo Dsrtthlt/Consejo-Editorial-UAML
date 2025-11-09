@@ -12,6 +12,10 @@ date: last-modified
 date-format: "[Última actulización] DD, MMMM, YYYY"
 abstract: |
   Este es un resumen
+keywords:
+ - una
+ - dos
+ - tres
 format:
  html:
   respect-user-color-scheme: true
