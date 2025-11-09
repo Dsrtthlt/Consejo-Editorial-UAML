@@ -14,7 +14,7 @@ date-format: "[Última actulización] DD, MMMM, YYYY"
 abstract: "Este ensayo discute el diseño conceptual de un pódcast de investigación sociológica. Sitúa este diseño en un marco general de adaptaciones recientes que han tenido lugar en el intercambio entre las Ciencias Sociales y el ecosistema del audio. Explora la técnica de interrupción como escritura de guiones provenientes de investigaciones documentales en el campo de la Sociología. Esta técnica yuxtapone inscripciones disímiles en un solo lugar. Una técnica para lidiar al mismo tiempo con estructuras narrativas, la reflexión teórica y las variantes de la interrupción. Aplica esta técnica en un ejercicio contrafactual sobre la vida universitaria de Karl Marx. En las conclusiones se resalta la experimentación que ofrece el ecosistema del audio, subraya la pertinencia de diseños múltiples y compactos como canales de divulgación-difusión de las investigaciones académicas, y destaca que estos diseños permiten salir del tradicional circuito de especialistas y navegar aerodinámicamente por el ecosistema cultural actual."
 keywords: ["Sociología, Pódcast, Guion, Técnica de interrupción"]
 toc: true
-linestretch: 2cm
+linestretch: 2
 bibliography: ART004.bib
 nocite: |
   @pérezsoto2010
@@ -77,7 +77,7 @@ Estas formulaciones muestran a un ecosistema del audio en mutación constante. L
 
 ## Un ecosistema en expansión
 
-Un entramado de dispositivos tecnológicos y aplicaciones conectados a internet que se actualizan con vértigo ha creado un sofisticado ecosistema cultural global. En el pasado bastaba quizá un boletín impreso, una revista periódica, la publicación de un libro, la asistencia a una conferencia magistral para informarnos, comunicarnos, estudiar o leer. En este ecosistema cultural global, por el contrario, rige la híper-velocidad, los algoritmos creativos, la viralidad, la ligereza, los contenidos híbridos y compactos, la inteligencia artificial, la espectacularidad. En su ensayo sobre la mutación cultural de nuestra época, Alessandro Baricco ofrece una panorámica de esta "lógica bárbara" que domina el ecosistema cultural global: "la superficie en vez de la profundidad, la velocidad en vez de la reflexión, las secuencias en vez del análisis, el *surf* en vez de la profundización, la comunicación en vez de la expresión, el *multitasking* en vez de la especialización, el placer en vez del esfuerzo" [@Baricco2006, epílogo]. En suma, hablamos del "*storytelling*" de la civilización digital. Además, vivimos ahora una época multicanal. Una sensación de obligatoriedad de estar en todos los canales, en todas las frecuencias, en todas las plataformas. Las mensajerías instantáneas y las redes sociales, por lo demás, son las autopistas que juzgamos indispensables para informarnos, comunicarnos, entretenernos, estudiar y leer.
+Un entramado de dispositivos tecnológicos y aplicaciones conectados a internet que se actualizan con vértigo ha creado un sofisticado ecosistema cultural global. En el pasado bastaba quizá un boletín impreso, una revista periódica, la publicación de un libro, la asistencia a una conferencia magistral para informarnos, comunicarnos, estudiar o leer. En este ecosistema cultural global, por el contrario, rige la híper-velocidad, los algoritmos creativos, la viralidad, la ligereza, los contenidos híbridos y compactos, la inteligencia artificial, la espectacularidad. En su ensayo sobre la mutación cultural de nuestra época, Alessandro Baricco ofrece una panorámica de esta "lógica bárbara" que domina el ecosistema cultural global: "la superficie en vez de la profundidad, la velocidad en vez de la reflexión, las secuencias en vez del análisis, el *surf* en vez de la profundización, la comunicación en vez de la expresión, el *multitasking* en vez de la especialización, el placer en vez del esfuerzo" [@Baricco2006: epílogo]. En suma, hablamos del "*storytelling*" de la civilización digital. Además, vivimos ahora una época multicanal. Una sensación de obligatoriedad de estar en todos los canales, en todas las frecuencias, en todas las plataformas. Las mensajerías instantáneas y las redes sociales, por lo demás, son las autopistas que juzgamos indispensables para informarnos, comunicarnos, entretenernos, estudiar y leer.
 
 El audio, además, se ha configurado en una galaxia particular del más vasto ecosistema cultural global. Dispositivos como iPhones, Siri, Apple Podcasts, Alexa, WhatsApp, Spotify, Telegram, etcétera, protagonistas visibles y poderosos del ecosistema del audio, han ido reconfigurando el rostro y el ritmo de nuestros intercambios de bienes culturales. Las innovaciones al interior del ecosistema del audio y, en innumerables ocasiones, la sustitución del mensaje de texto por el mensaje de audio en las mensajerías instantáneas incrustadas en los teléfonos inteligentes personales, son aspectos indiscutibles del protagonismo de esta galaxia particular.
 
@@ -135,39 +135,25 @@ En atención a lo expuesto aquí sobre las variaciones de la interrupción, se t
 
 ## *Un pódcast de investigación sociológica*
 
-A diferencia de otros pódcast académicos donde la "ficción sonora" asume un rol protagónico (Fes Acatlán 2022, 2023), el diseño de un pódcast de investigación sociológica que aquí se expone mantiene una relación discreta con los planos de sonido. Los episodios de esta iniciativa inspeccionan una serie de autores clásicos que contribuyeron decisivamente al despegue de la Sociología. Marx, Engels, Durkheim, Simmel, Weber, Parsons. Aunque sobre estos clásicos se ha escrito indudablemente muchísimo, siguen formulándose interrogaciones sujetas a la investigación de archivo o la investigación teórica. Son autores tan fascinantes, además, que toda una agenda de investigación puede plantearse en términos de rastrear minucias o huellas sobre las que la crítica se ha detenido poco o pasa rápido sobre ellas. Son relatos compactos que entretejen momentos biográficos con dimensiones del contexto de producción de la obra teórica. Relatos breves, huellas, marcas, microhistorias poco visitadas o desconocidas sobre los teóricos que se juzgan decisivos. \> \> Para conectar aquí lo dicho sobre la técnica de interrupción con el diseño de un pódcast de investigación sociológica es conveniente mostrar una escaleta sencilla de un guion de locución. La escaleta es un instrumento gráfico bastante extendido en las cabinas de grabaciones. Si bien sus diseños son diversos, su utilidad reside en reconocer el orden preciso de las voces: quién habla, qué se dice exactamente, cuánto dura lo que se dice, así como precisar el orden de intervención del sonido, pausas, transiciones o silencios.
+A diferencia de otros pódcast académicos donde la "ficción sonora" asume un rol protagónico (Fes Acatlán 2022, 2023), el diseño de un pódcast de investigación sociológica que aquí se expone mantiene una relación discreta con los planos de sonido. Los episodios de esta iniciativa inspeccionan una serie de autores clásicos que contribuyeron decisivamente al despegue de la Sociología. Marx, Engels, Durkheim, Simmel, Weber, Parsons. Aunque sobre estos clásicos se ha escrito indudablemente muchísimo, siguen formulándose interrogaciones sujetas a la investigación de archivo o la investigación teórica. Son autores tan fascinantes, además, que toda una agenda de investigación puede plantearse en términos de rastrear minucias o huellas sobre las que la crítica se ha detenido poco o pasa rápido sobre ellas. Son relatos compactos que entretejen momentos biográficos con dimensiones del contexto de producción de la obra teórica. Relatos breves, huellas, marcas, microhistorias poco visitadas o desconocidas sobre los teóricos que se juzgan decisivos. Para conectar aquí lo dicho sobre la técnica de interrupción con el diseño de un pódcast de investigación sociológica es conveniente mostrar una escaleta sencilla de un guion de locución. La escaleta es un instrumento gráfico bastante extendido en las cabinas de grabaciones. Si bien sus diseños son diversos, su utilidad reside en reconocer el orden preciso de las voces: quién habla, qué se dice exactamente, cuánto dura lo que se dice, así como precisar el orden de intervención del sonido, pausas, transiciones o silencios.
 
-Cuadro 1. Técnica de interrupción como diseño de locución
+### Cuadro 1. Técnica de interrupción como diseño de locución
 
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
-|                           | > **Secuencia** | > **Voz**                           | > **Sonido**            | > **Contenido / Propósito**            | > **Duración** \| |
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
-|                           | > 01            |                                     | > Introducción          | > Reconocimiento de apertura           | > 10''            |
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
-|                           | > 02            | > Anfitrión(a)                      |                         | > Presentación y objetivo del episodio | > 30 a 45''       |
-|                           |                 | >                                   |                         |                                        |                   |
-|                           |                 | > Disparador                        |                         |                                        |                   |
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
-|                           | > 03            |                                     | > Transición            | > Pausa                                | > 5''             |
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
-| > Técnica de interrupción | > 04            | > Narrador(a) Analista Comentarista | > Voces y ambientación  | > Conflicto Clímax                     | > +10'            |
-|                           | >               | >                                   |                         | >                                      |                   |
-|                           | > 05            | > Aprendiz de sociólogo(a)          |                         | > Aceleración del conflicto            |                   |
-|                           | >               |                                     |                         |                                        |                   |
-|                           | > 06            |                                     |                         |                                        |                   |
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
-|                           | > 07            |                                     | > Transición            | > Pausa                                | > 5''             |
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
-|                           | > 08            | > Anfitrión(a)                      |                         | > Conclusión del episodio              | > 2'              |
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
-|                           | > 09            |                                     | > Salida                | > Reconocimiento de salida             | > 10''            |
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
-|                           | > 10            | > Créditos                          | > Cortinilla institucio |                                        | > 1'              |
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
-|                           | > Total         |                                     |                         |                                        | > 15'             |
-+---------------------------+-----------------+-------------------------------------+-------------------------+----------------------------------------+-------------------+
+| **Secuencia** | **Voz** | **Sonido** | **Contenido / Propósito** | **Duración** |
+|----|----|----|----|----|
+| 01 |  | Introducción | Reconocimiento de apertura | 10'' |
+| 02 | Anfitrión(a) + Disparador |  | Presentación y objetivo del episodio | 30 a 45'' |
+| 03 |  | Transición | Pausa | 5'' |
+| **Técnica de interrupción** | Narrador(a)/Analista/Comentarista | Voces y ambientación | Conflicto Clímax | +10' |
+| 05 | Aprendiz de sociólogo(a) |  | Aceleración del conflicto |  |
+| 06 |  |  |  |  |
+| 07 |  | Transición | Pausa | 5'' |
+| 08 | Anfitrión(a) |  | Conclusión del episodio | 2' |
+| 09 |  | Salida | Reconocimiento de salida | 10'' |
+| 10 | Créditos | Cortinilla institucional |  | 1' |
+| **Total** |  |  |  | 15' |
 
-Fuente: Elaboración propia
+*Fuente: Elaboración propia*
 
 El cuadro 1. "Técnica de interrupción como guion de locución" muestra una escaleta compuesta de 10 secuencias de intervención. Las filas de la tabla identifican las secuencias y las columnas distribuyen el contenido y los propósitos de dicho contenido: las voces, quién dice qué, la duración medida según convenga en segundos (doble comillas) o minutos (una comilla) y la intervención del sonido. Las secuencias 01, 02, 03, 08, 09 y 10 son típicas entradas y salidas generales de cualquier programa radiofónico o de cualquier pódcast del ecosistema. Las secuencias 04, 05 y 06, en cambio, son los planos donde la técnica de interrupción tiene lugar. Tipificadas como "narrador(a)", "analista", "comentarista" y "aprendiz de sociólogo(a)", estas voces interactuan o se entretejen las veces que se juzgan necesarias hasta agotar o abandonar el objeto de discusión.
 

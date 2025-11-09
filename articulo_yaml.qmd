@@ -1,28 +1,32 @@
 ---
-title: ""
-subtitle: ""
+title: "Un título"
+subtitle: "Un subtítulo"
+format: html
+editor: visual
 author: 
-  - name: ""
-    degrees: "Dr."
-    orcid: "0000-0000-0000-0000"
-    affiliation: ""
+  - name: "Omar Pérez"
+    degrees: "Grado"
+    orcid: ""
+    affiliation: "Una institución"
     corresponding: true
-    email: ""
+    email: "correo.del.autor@cuenta.com"
     url: ""
 date: last-modified
 date-format: "[Última actulización] DD, MMMM, YYYY"
-abstract: ""
-keywords: [""]
+abstract: "Un resumen"
+keywords: ["Varias, palabras, clave"]
 toc: true
 linestretch: 2cm
-bibliography: ART00_.bib
+bibliography: ART002.bib
+nocite: |
+  @Sued2022
 csl: apa-6th-edition-no-ampersand.csl
 citation:
   type: article-journal
   container-title: "Analitica"
   url: http://revista-csh.ler.uam.mx/index.php/rda/index
   page-first: 4
-  editor: "Fernando Beltrán Nieves"
+  editor: "Nombre Del Editor del Dossier"
 google-scholar: true
 format:
   html:
@@ -36,17 +40,19 @@ format:
     include-in-header:
       text: |
         \usepackage{fontsize}
-        \changefontsize{11.5pt}
+        \changefontsize{12pt}
+        \usepackage{setspace}
+        \onehalfspacing
         \usepackage[svgnames, dvipsnames, table]{xcolor} %personalizar colores
         \definecolor{Pantone253C}{HTML}{AD25A8} % Color de la UAM Lerma
         \usepackage{scrlayer-scrpage} %editar lineas de encabezados y pies
         \clearpairofpagestyles %limpiar estilos predeterminados de página
         \pagestyle{scrheadings}
         \setkomafont{pagehead}{\sffamily\normalfont}
-        \rohead{Titulo Arti}
-        \ihead{Apellidos autor}
+        \rohead{Palabras clave del título}
+        \ihead{Apellidos del Autor}
         \setkomafont{pagefoot}{\sffamily\normalfont}
-        \ifoot{\vspace{-5pt} AN@LÍTICA | Vol. 6, Num. 6}
+        \ifoot{\vspace{-5pt} AN@LÍTICA | Vol. _, Num. _}
         \ofoot{\vspace{10pt} \pagemark}
         \KOMAoptions{headsepline=1pt, footsepline=1pt}
         \addtokomafont{headsepline}{\color{Pantone253C}} %editar colores de líneas
@@ -56,3 +62,12 @@ format:
         \setmainfont{Arial} %asugnar Arial como fuente sin serifa
   docx: default
 ---
+
+\begin{abstract}
+This article introduces a methodological proposal designed to assess the influence of Google's search algorithm on the visibility of academic profiles online. By analyzing the search results generated from querying the names of a sample of academics (n=81) that are part of Mexico's National System of Researchers, this approach develops a visibility indicator. This indicator operationalizes both the type of information and the level of exposure or prominence that these search results assign to academic profiles. Broadly, this proposal aims to contribute to the analysis of digital algorithms within the field of social and cultural studies.
+\end{abstract}
+
+Plantilla
+
+A partir del uso masivo de internet, las plataformas de redes sociales y los motores de búsqueda se han consolidado como las principales herramientas digitales que las personas utilizan para interactuar entre familiares y amigos, mantenerse informados y consumir una extensa gama de contenido de entretenimiento. La consolidación de la cultura digital, surgida del primer decenio del siglo XXI gracias al desarrollo de las tecnologías de banda ancha y móvil y la expansión del internet social [@Raine2012], ha permeado a la sociedad a tal grado que la interacción socio-digital entre las personas ha llegado a concebirse como una práctica cuasi natural.
+

@@ -53,7 +53,7 @@ format:
         \addtokomafont{pagenumber}{\color{Pantone253C}} %editar color del número de página
         \usepackage{fontspec}  %cambiar fuente de encabezado y pie
         \setmainfont{Arial} %asugnar Arial como fuente sin serifa
-  docx: default
+  epub: default
 ---
 
 \begin{abstract}
@@ -75,23 +75,21 @@ En este panorama, la adecuación de métodos y contenidos pedagógicos se vuelve
 
 La transformación digital, por su parte, impregna también las prácticas educativas y comunicativas. Castells (2006), describe la sociedad contemporánea como una "sociedad red", caracterizada por flujos de información constantes, virtualidad y conectividad. En este contexto, la educación debe adaptarse a modelos pedagógicos que integren estas dinámicas.
 
-El pódcast, por su parte, no solo apoya la educación tradicional: ha evolucionado hacia una *metodología autónoma* de difusión científica y cultural. Proyectos como "My Gothic Dissertation" de Anna Williams demuestran cómo la producción de audio académico puede generar comunidades de escucha activas y participantes [@williams_2019]; y redes como Amplify Podcast Network en Canadá muestran el potencial del pódcast institucional para legitimar nuevas voces académicas [@beltrán-nieves2024].
+El pódcast, por su parte, no solo apoya la educación tradicional: ha evolucionado hacia una *metodología autónoma* de difusión científica y cultural. Proyectos como "My Gothic Dissertation" de Anna Williams demuestran cómo la producción de audio académico puede generar comunidades de escucha activas y participantes [@williams2019]; y redes como Amplify Podcast Network en Canadá muestran el potencial del pódcast institucional para legitimar nuevas voces académicas [@beltránnieves2024].
 
 En el contexto mexicano, estas iniciativas aún se encuentran en fase exploratoria, lo que representa una gran oportunidad para experimentar y consolidar modelos propios. El caso del pódcast *Versátil* se analiza aquí como un experimento transmedia local de la Universidad Autónoma Metropolitana unidad Lerma, que combina teoría, metodología y narrativa: diez episodios que abordan temas de cultura y sociedad, acompañados de publicaciones en redes y blog, conformando un micro-universo narrativo. A través de entrevistas, recursos sonoros originales y la participación de estudiantes y docentes, Versátil busca consolidarse como ejemplo de "educación sonora transmedia" y "alfabetismo mediático" aplicado.
 
 ## El pódcast como narrativa transmedia emergente
 
-@scolari2013a, define la narrativa transmedia como una forma de expandir una historia a través de múltiples plataformas, donde cada medio aporta elementos únicos al conjunto. Esta lógica no busca repetir lo mismo en distintos formatos, sino diseñar experiencias complementarias que enriquezcan el universo narrativo. En este entramado, el pódcast ocupa un lugar destacado como vehículo de expansión, al permitir profundizar en aspectos específicos, brindar nuevas perspectivas, o incluso ofrecer contenido original que no aparece en otros soportes. Por ejemplo, un pódcast puede complementar una película o serie mediante entrevistas, análisis, ficciones paralelas o reflexiones críticas que nutran la experiencia narrativa.
+@scolari2013, define la narrativa transmedia como una forma de expandir una historia a través de múltiples plataformas, donde cada medio aporta elementos únicos al conjunto. Esta lógica no busca repetir lo mismo en distintos formatos, sino diseñar experiencias complementarias que enriquezcan el universo narrativo. En este entramado, el pódcast ocupa un lugar destacado como vehículo de expansión, al permitir profundizar en aspectos específicos, brindar nuevas perspectivas, o incluso ofrecer contenido original que no aparece en otros soportes. Por ejemplo, un pódcast puede complementar una película o serie mediante entrevistas, análisis, ficciones paralelas o reflexiones críticas que nutran la experiencia narrativa.
 
 @jenkins2008, uno de los pioneros en conceptualizar la *cultura de la convergencia*, subraya que las audiencias actuales ya no son solo consumidoras pasivas, sino participantes activas en la expansión del relato, a través de prácticas como el *fanfiction*, la creación de memes, videos, análisis y pódcast. Esta cultura participativa redefine las formas de producción, circulación y apropiación del contenido, lo que convierte al pódcast en una herramienta poderosa no solo de comunicación, sino de creación comunitaria y significación colectiva.
 
-Desde una perspectiva académica, esta expansión de contenidos se ha transformado en una herramienta estratégica para la divulgación del conocimiento. Esta tendencia responde, además, a una necesidad de diversificar los lenguajes académicos y conectar con públicos más amplios [@olivieri2022]. Actualmente es común encontrar en plataformas digitales una amplia variedad de contenidos en audio: desde entrevistas y conferencias hasta experimentos sonoros como ensayos en audio, postales narrativas y diarios de campo sonoros. A esta gama creciente, se suma ahora la producción de investigaciones sociales y humanísticas diseñadas específicamente para el formato auditivo @belt.
+Desde una perspectiva académica, esta expansión de contenidos se ha transformado en una herramienta estratégica para la divulgación del conocimiento. Esta tendencia responde, además, a una necesidad de diversificar los lenguajes académicos y conectar con públicos más amplios [@olivieri2022]. Actualmente es común encontrar en plataformas digitales una amplia variedad de contenidos en audio: desde entrevistas y conferencias hasta experimentos sonoros como ensayos en audio, postales narrativas y diarios de campo sonoros. A esta gama creciente, se suma ahora la producción de investigaciones sociales y humanísticas diseñadas específicamente para el formato auditivo @beltránnieves2024.
 
 No obstante, el entorno digital contemporáneo se caracteriza por una sobreabundancia de información, un fenómeno que @lévy1999 denominó "infoproducción masiva", y por una atención cada vez más limitada por parte de los usuarios, algo que @franck2019 conceptualiza como la "economía de la atención". En este contexto, el éxito de los contenidos digitales depende de su capacidad para captar el interés en segundos. El pódcast se enfrenta, por tanto, al reto de destacar en un ecosistema saturado.
 
-Pese a ello, su valor reside en la capacidad de establecer vínculos más personales con audiencias específicas. Gracias a su formato asincrónico, flexible y su dimensión auditiva, los pódcast comienzan a ser parte de una escucha activa y contextual, pues se escuchan mientras caminas, cocinas, trabajas, estudias, manejas, etc, lo cual permitir una experiencia distinta a la lectura o el video; generando una conexión íntima con el oyente, el pódcast tiene una dimensión "acústica y afectiva" que fortalece la comprensión, la reflexión crítica y el compromiso emocional del oyente @lindgren2016.
-
-Este es precisamente el punto de inflexión donde el lenguaje cobra una dimensión auditiva y los creadores sonoros deben encontrar formas singulares y creativas de narrar, persuadir y transmitir ideas.
+Pese a ello, su valor reside en la capacidad de establecer vínculos más personales con audiencias específicas. Gracias a su formato asincrónico, flexible y su dimensión auditiva, los pódcast comienzan a ser parte de una escucha activa y contextual, pues se escuchan mientras caminas, cocinas, trabajas, estudias, manejas, etc, lo cual permitir una experiencia distinta a la lectura o el video; generando una conexión íntima con el oyente, el pódcast tiene una dimensión "acústica y afectiva" que fortalece la comprensión, la reflexión crítica y el compromiso emocional del oyente @lindgren2016. Este es precisamente el punto de inflexión donde el lenguaje cobra una dimensión auditiva y los creadores sonoros deben encontrar formas singulares y creativas de narrar, persuadir y transmitir ideas.
 
 Más allá de ser un canal de difusión, el pódcast puede convertirse en una metodología de investigación. De acuerdo con @mcloughlin2010, el uso de herramientas digitales como el pódcast promueve dinámicas colaborativas y reflexivas dentro de los procesos investigativos cualitativos. A pesar de sus múltiples ventajas, la implementación del pódcast en contextos académicos y educativos enfrenta diversos retos. Entre ellos destacan los obstáculos técnicos (infraestructura, habilidades), pedagógicos (diseño didáctico, evaluación) e institucionales (reconocimiento académico, tiempos de producción).
 
@@ -100,7 +98,7 @@ En este sentido, pensar el pódcast como narrativa transmedia emergente implica 
 ### Tabla 1: Beneficios de la producción de podcast
 
 | **Categoría** | **Aspecto** | **Descripción** |
-|------------------|------------------|-------------------------------------|
+|------------------------|------------------------|------------------------|
 | Accesibilidad y bajo costo | Producción con recursos mínimos | Se requiere poco equipo técnico y es fácil de distribuir digitalmente. |
 | Estímulo al pensamiento crítico | Estructuración argumentativa | Obliga a organizar la información de forma coherente y atractiva. |
 | Interacción con la audiencia | Comunicación bidireccional | Permite recibir retroalimentación y enriquecer el proceso pedagógico. |
@@ -113,14 +111,14 @@ En este sentido, pensar el pódcast como narrativa transmedia emergente implica 
 ### Tabla 2: Dificultades de la producción de podcast
 
 | **Categoría** | **Aspecto** | **Descripción** |
-|-----------------|------------------|--------------------------------------|
+|------------------------|------------------------|------------------------|
 | Barreras técnicas | Falta de competencias | La producción y edición requieren formación específica. |
 | Legitimidad académica | Escepticismo institucional | No siempre es considerado un formato riguroso o válido para la investigación. |
 | Tiempo de producción | Demanda de recursos temporales | Requiere planificación, grabación, edición y difusión cuidadosa. |
 | Curaduría de contenidos | Necesidad de actualización continua | Exige mantener la información vigente y precisa. |
 | Sostenibilidad | Financiamiento y permanencia | Es difícil mantener proyectos sin modelos de apoyo económico o institucional. |
 
-*Fuente: Elaboración propia. A partir de @mcloughlin2010*
+*Fuente: Elaboración propia. A partir de* @mcloughlin2010
 
 La incorporación del pódcast como herramienta educativa dentro de un enfoque transmedia representa una oportunidad significativa para transformar las prácticas pedagógicas en la educación superior. Como lo señalan @mcloughlin2010, los entornos de aprendizaje mediados por tecnologías digitales fomentan tanto la autonomía del estudiante como procesos colaborativos más horizontales. En este sentido, los beneficios del podcasting trascienden el simple uso del audio como recurso didáctico: implican una reconfiguración de las dinámicas de producción, circulación y apropiación del conocimiento.
 
@@ -134,11 +132,9 @@ En conclusión, el uso del pódcast educativo dentro de una estrategia transmedi
 
 ## Versátil: exploración de un pódcast universitario emergente
 
-El pódcast *Versátil*, se presenta como un espacio de difusión cultural que refleja las inquietudes de la comunidad estudiantil a través de una serie de ensayos narrativos en formato de audio, el cual esta alojado en el canal de YouTube ATÓYATL, Difusión Cultural; constituyendo una propuesta innovadora de comunicación universitaria que integra
+El pódcast *Versátil*, se presenta como un espacio de difusión cultural que refleja las inquietudes de la comunidad estudiantil a través de una serie de ensayos narrativos en formato de audio, el cual esta alojado en el canal de YouTube ATÓYATL, Difusión Cultural; constituyendo una propuesta innovadora de comunicación universitaria que integra contenidos culturales y académicos producidos por el Departamento de Estudios Culturales de la Universidad Autónoma Metropolitana (UAM), unidad Lerma.
 
-contenidos culturales y académicos producidos por el Departamento de Estudios Culturales de la Universidad Autónoma Metropolitana (UAM), unidad Lerma.
-
-En el marco de las narrativas transmedia y el uso tecnopedagógico del pódcast en contextos educativos, su análisis permite identificar tanto las potencialidades como las tensiones que surgen en su implementación. El desarrollo formal del medio sonoro ha cobrado fuerza en la última década. Los audios contemporáneos, disponibles en repositorios digitales, bibliotecas en línea y plataformas de streaming, han redefinido las formas en que nos relacionamos con la cultura. Como señala @beltrán-nieves2024, esta evolución plantea nuevas preguntas sobre los modos de producción y consumo simbólico en la era digital.
+En el marco de las narrativas transmedia y el uso tecnopedagógico del pódcast en contextos educativos, su análisis permite identificar tanto las potencialidades como las tensiones que surgen en su implementación. El desarrollo formal del medio sonoro ha cobrado fuerza en la última década. Los audios contemporáneos, disponibles en repositorios digitales, bibliotecas en línea y plataformas de streaming, han redefinido las formas en que nos relacionamos con la cultura. Como señala @beltránnieves2024, esta evolución plantea nuevas preguntas sobre los modos de producción y consumo simbólico en la era digital.
 
 ### Accesibilidad, flexibilidad y alcance
 
@@ -166,9 +162,7 @@ El pódcast *Versátil*, producido por el Departamento de Estudios Culturales de
 
 Desde su inicio, el episodio utiliza la estructura de una película ficticia ---*La Sustancia*--- como dispositivo argumental para interrogar los estándares estéticos impuestos por la industria del entretenimiento. A través de la voz en primera persona, diálogos dramatizados y ejemplos referenciales, se construye un paralelismo entre la protagonista de la historia imaginaria y figuras reales como Margot Robbie, Scarlett Johansson, Megan Fox, Christina Aguilera y Donatella Versace. Esta estrategia narrativa no solo aporta densidad argumentativa al discurso, sino que establece un puente entre la ficción y la realidad cultural, elemento clave en las narrativas transmedia [@scolari2013].
 
-El episodio está articulado mediante un guión sólido y progresivo, donde cada elemento
-
----desde el planteamiento de preguntas críticas como "¿Qué pasa si todas terminamos pareciéndonos entre nosotras?"--- hasta los silencios dramáticos--- está orientado a provocar reflexión y participación emocional por parte del oyente. En línea con lo que señala @baricco2023, la narración aquí no pretende "decir la verdad" de forma literal, sino construir una experiencia significativa a través de la exploración de esa verdad desde múltiples capas simbólicas y sensoriales.
+El episodio está articulado mediante un guión sólido y progresivo, donde cada elemento ---desde el planteamiento de preguntas críticas como "¿Qué pasa si todas terminamos pareciéndonos entre nosotras?" --- hasta los silencios dramáticos--- está orientado a provocar reflexión y participación emocional por parte del oyente. En línea con lo que señala [@baricco2023], la narración aquí no pretende "decir la verdad" de forma literal, sino construir una experiencia significativa a través de la exploración de esa verdad desde múltiples capas simbólicas y sensoriales.
 
 ### Diseño sonoro y experiencia inmersiva
 
@@ -189,7 +183,7 @@ En síntesis, el análisis del episodio inaugural revela el potencial del pódca
 ### Tabla 3: Análisis de Versátil
 
 | **Fortalezas** | **Oportunidades de mejora** |
-|-----------------------------|-------------------------------------------|
+|------------------------------------|------------------------------------|
 | Estructura narrativa coherente | Refinar edición sonora y equilibrio de audio |
 | Calidad sonora adecuada | Fomentar llamada a la audiencia en el episodio |
 | Formato audiovisual accesible | Añadir referencias bibliográficas en la descripción |
@@ -211,3 +205,13 @@ Además, la credibilidad del pódcast dentro de los entornos académicos tradici
 Otro desafío importante es la sostenibilidad. Sin un modelo claro de financiamiento o apoyo institucional, la continuidad de estos proyectos puede verse comprometida. La implementación de estrategias de monetización o patrocinios, junto con políticas universitarias que reconozcan el valor del pódcast como herramienta pedagógica, serían pasos fundamentales para garantizar su permanencia.
 
 Finalmente, el enfoque transmedia, aunque enriquecedor, también implica una curaduría exigente. Articular diversos formatos y plataformas requiere creatividad, planificación estratégica y un profundo conocimiento de los públicos a los que se dirige.
+
+## **Reflexión Final**
+
+El caso de *Versátil* ilustra cómo el pódcast puede transformarse en un medio poderoso para abordar temas sensibles, generar pensamiento crítico y expandir los horizontes de la
+
+enseñanza universitaria. Su narrativa transmedia, el uso creativo del sonido y su compromiso con la reflexión cultural lo posicionan como un referente y una herramienta valiosa para la educación contemporánea.
+
+No obstante, su consolidación como práctica tecnopedagógica efectiva dependerá de la capacidad de las instituciones educativas para reconocer su valor, ofrecer formación técnica adecuada y facilitar su integración en los planes de estudio. El pódcast no solo complementa el aprendizaje, sino que lo reinventa, creando puentes entre el saber académico y la cultura digital en la que los estudiantes están inmersos.
+
+Como señala @scolari2013, cuando todos los medios cuentan, también debe contarse con todos los medios. El reto está en hacerlo de forma crítica, creativa y con vocación transformadora.
