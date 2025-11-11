@@ -1,35 +1,54 @@
 ---
-title: "Un título"
-subtitle: "Un subtítulo"
+title: "Un título para un trabajo que no existe"
+subtitle: "Un subtítulo para ese trabajo inexistente"
 short-title: "Un Subti"
 abstract: |
-  Este es un resumen
+  Este es un resumen que habla de un trabajo que no existe y tiene texto en latín. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum accumsan semper. Duis tempus laoreet nisl, sit amet aliquet enim porta vitae. Etiam vitae leo eu diam molestie euismod. Suspendisse convallis bibendum varius. Morbi non lorem ex. Sed laoreet ullamcorper massa vitae sollicitudin. Quisque malesuada elementum leo, volutpat bibendum sapien lobortis in. Donec lacinia accumsan viverra.
 keywords:
  - una
  - dos
  - tres
-author: 
+author:
   - name: "Omar Pérez"
     affiliation: "Una institución"
     corresponding: true
     email: "correo.del.autor@cuenta.com"
     orcid: "0000"
     url: ""
+  - name: "Mi clon"
+    affiliation: "Otra institución"
+    corresponding: true
+    email: "correo.del.autor@cuenta.com"
+    orcid: "0000"
+    url: ""
+journal-name:
+  - name: "An@lítica"
+    url: "http://revista-csh.ler.uam.mx/index.php/rda"
+issn: "2683-242"
+doi: ""
 editor: visual
-journal:"AN@LITICA"
 volume: ""
 number: ""
-year: ""
+year: "202_"
+recieved: "2025-03-15"
+accepted: "2025-03-15"
+published: "2025-11-11"
 date: last-modified
 date-format: "[Última actulización] DD, MMMM, YYYY"
-rector: ""
-secretaria: ""
-director-dcsh: ""
-coordinador-general: ""
-editor1: ""
-editor2: ""
+citation:
+  type: article-journal
+  container-title: "An@litica"
+  url: http://revista-csh.ler.uam.mx/index.php/rda/index
+  page-first: 4
+  page-last: 5
+google-scholar: true
 format:
  html:
+  lang: es
+  date-format: "[Última actulización] DD, MMMM, YYYY"
+  theme:
+    light: lux
+    dark: darkly
   respect-user-color-scheme: true
   toc: true
   lof: true
@@ -38,42 +57,55 @@ format:
   fontsize: 13pt
   linestretch: 2
   linkcolor: rgb(173, 37, 168)
-  theme:
-    light: lux
-    dark: darkly
-  keywords: "Unas, Cuantas, Palabras, Clave"
-  lang: es
-  date-format: "[Última actulización] DD, MMMM, YYYY"
- pdf:
-  geometry: [top=3cm, right=3cm, bottom=3cm, left=3cm]
-  template-partials: 
-   - before-body.tex
-   - _affiliations.tex
-  date: last-modified
-  date-format: DD, MMMM, YYYY
-  toc: false
-  linestretch: 1.5
-  include-in-header: header-footer.tex
+ tandf-pdf:
+   number-sections: false
+   include-in-header:
+      text: |
+        \usepackage{fontsize} %%%%%
+        \changefontsize{11.5pt} %%%%%
+        \usepackage{setspace} %%%%%
+        \onehalfspacing %%%%%
+        \usepackage[svgnames, dvipsnames, table]{xcolor} %personalizar colores %%%%%
+        \definecolor{Pantone253C}{HTML}{AD25A8} % Color de la UAM Lerma  %%%%%
+        \usepackage{scrlayer-scrpage} %editar lineas de encabezados y pies %%%%%
+        \clearpairofpagestyles %limpiar estilos predeterminados de página %%%%%
+        \pagestyle{scrheadings} %%%%%
+        \setkomafont{pagehead}{\sffamily\normalfont} %%%%%
+        \ihead{Nombre Autor} %%%%%
+        \rohead{Título corto} %%%%%
+        \setkomafont{pagefoot}{\sffamily\normalfont} %%%%%
+        \ifoot{\vspace{-5pt} AN@LÍTICA | Vol. 6, Num. 6} %%%%%
+        \ofoot{\vspace{10pt} \pagemark} %%%%%
+        \KOMAoptions{headsepline=0.1pt, footsepline=0.1pt} 
+        \addtokomafont{headsepline}{\color{Pantone253C}} %editar colores de líneas %%%%%
+        \addtokomafont{footsepline}{\color{Pantone253C}} %%%%%
+        \addtokomafont{pagenumber}{\color{Pantone253C}} %editar color del número de página %%%%%
+        \usepackage{fontspec}  %cambiar fuente de encabezado y pie %%%%%
+        \setmainfont{Arial} %asugnar Arial como fuente sin serifa %%%%%
+   keep-tex: true
  epub: default
+bibliography: references.bib
 ---
 
 ## Plantilla
 
--   Un texto con una referencia [@Raine2012].
+-   Un texto con una referencia [@attali2019].
 
--   [Un enlace](https://www.datacamp.com/cheat-sheet/quarto-cheat-sheet-previously-known-as-r-markdown)
+-   [Un enlace](https://www.datacamp.com/cheat-sheet/quarto-cheat-sheet-previously-known-as-r-markdown) y una nota al pie[^1]
+
+[^1]: La nota al pie :)
 
 ## Texto al azar
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum accumsan semper. Duis tempus laoreet nisl, sit amet aliquet enim porta vitae. Etiam vitae leo eu diam molestie euismod. Suspendisse convallis bibendum varius. Morbi non lorem ex. Sed laoreet ullamcorper massa vitae sollicitudin. Quisque malesuada elementum leo, volutpat bibendum sapien lobortis in. Donec lacinia accumsan viverra.
 
-### dolor dolor
+### Un sub apartado con más texto al azar
 
 Suspendisse potenti. Etiam finibus diam turpis, ac efficitur nunc consectetur ac. Vestibulum eleifend aliquet eleifend. Quisque sed ante nec mauris consequat egestas. Fusce at porttitor nunc. Duis ut elit pellentesque tortor rutrum porta. Sed quis congue augue, at venenatis lacus. Maecenas semper ipsum vel lorem pulvinar imperdiet. Nulla rutrum purus in erat lacinia iaculis. In ac bibendum urna. Ut non dolor non risus aliquet vestibulum. Fusce a aliquam ex. Nulla faucibus tincidunt iaculis. Fusce a turpis iaculis, eleifend velit ut, vehicula dui. Integer auctor felis et dictum pretium.
 
 Duis sollicitudin ipsum ac leo eleifend semper. Fusce et dictum leo. Donec porta, magna vel congue ornare, est arcu commodo nunc, a commodo justo nulla quis libero. Nulla pellentesque diam eget ligula ultrices, non iaculis orci gravida. Vestibulum eget molestie felis. Phasellus sem velit, dignissim vel rhoncus eget, ultrices vitae leo. Curabitur et imperdiet leo. Fusce consectetur blandit eros a rutrum. Mauris sollicitudin maximus sollicitudin. Curabitur volutpat viverra nisl, a placerat ex. Mauris feugiat justo sed leo ornare, id vulputate libero faucibus. In at lacus elementum, fermentum orci nec, dictum diam. Nunc sit amet semper nulla, eget fringilla mi.
 
-## Más dolor
+## Otro apartado sin sentido
 
 Ut at consequat nisi. Integer porttitor vitae tellus id imperdiet. Maecenas vehicula convallis aliquet. Suspendisse eget lectus in ligula accumsan bibendum. Donec rhoncus suscipit leo non ultrices. Aenean nulla urna, feugiat eu turpis feugiat, commodo fringilla nunc. In odio sapien, rutrum in tempus in, tincidunt eget tellus. Nam ante nisl, facilisis ut risus in, volutpat dapibus ligula. Vestibulum commodo libero et purus varius sagittis vel tempor elit. Vestibulum viverra elit leo, at gravida odio consequat a. Nulla dictum tellus mi, et mattis orci volutpat eu. In ac egestas metus, eu lacinia dui. Vestibulum placerat, libero eget ullamcorper egestas, tellus metus condimentum libero, at consequat tellus est in tortor. Aliquam eget ornare quam. Nam id finibus sapien, vel posuere leo.
 
@@ -82,7 +114,7 @@ Nam sit amet convallis dui. Pellentesque egestas nunc eu mauris feugiat, sed dap
 ### Una tabla
 
 | **Categoría** | **Descripción** | **Código** |
-|-----------------|--------------------------------------|-----------------|
+|------------------|-------------------------------------|------------------|
 |  | **FORMAL** |  |
 | Página institucional primaria | Sitio donde está adscripto el académico como investigador | F_PIp |
 | Página institucional secundaria | Sitio donde está adscripto el académico como docente o realizando otras funciones | F_PIs |
