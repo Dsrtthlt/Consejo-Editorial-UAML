@@ -1,0 +1,61 @@
+$-- Implements the frontmatter, title page, and abstract.
+$--
+$-- %%%% TODO %%%%%
+$-- Customize is needed, otherwise remove this partials to use Quarto default one
+$-- %%%%%%%%%%%%%%%%
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+\captionsetup{labelsep=space}
+$if(title)$
+$if(beamer)$
+\frame{\titlepage}
+$else$
+\maketitle
+$endif$
+$if(title)$
+$if(beamer)$
+\frame{\titlepage}
+$else$
+\maketitle
+$endif$
+
+% Bloque de autores y afiliaciones ajustado
+\noindent
+\begin{minipage}{\textwidth}
+ \centering
+  $for(authors)$
+    $authors.name$\par
+    $if(authors.affiliation)$
+      \small $authors.affiliation$\par
+    $endif$
+    \begin{minipage}[t]{0.45\textwidth}
+      \texttt{\href{mailto:$authors.email$}{$authors.email$}}
+    \end{minipage}%
+    \begin{minipage}[t]{0.45\textwidth}
+      \raggedleft
+      \href{https://orcid.org/$authors.orcid$}{ORCID}
+    \end{minipage}\par
+    \vspace{2mm}
+  $endfor$
+\end{minipage}
+
+
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+
+% Definimos explícitamente el ambiente keywords
+\newenvironment{keywords}{\noindent\textbf{Palabras clave:}\ }{}
+
+$if(keywords)$
+\begin{keywords}
+$for(keywords)$
+$keywords$$sep$, 
+$endfor$
+\end{keywords}
+$endif$
+$endif$
+$endif$

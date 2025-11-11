@@ -1,21 +1,33 @@
 ---
 title: "Un título"
 subtitle: "Un subtítulo"
-editor: visual
-author: 
-  - name: "Omar Pérez"
-    affiliation: "Una institución"
-    corresponding: true
-    email: "correo.del.autor@cuenta.com"
-    url: ""
-date: last-modified
-date-format: "[Última actulización] DD, MMMM, YYYY"
+short-title: "Un Subti"
 abstract: |
   Este es un resumen
 keywords:
  - una
  - dos
  - tres
+author: 
+  - name: "Omar Pérez"
+    affiliation: "Una institución"
+    corresponding: true
+    email: "correo.del.autor@cuenta.com"
+    orcid: "0000"
+    url: ""
+editor: visual
+journal:"AN@LITICA"
+volume: ""
+number: ""
+year: ""
+date: last-modified
+date-format: "[Última actulización] DD, MMMM, YYYY"
+rector: ""
+secretaria: ""
+director-dcsh: ""
+coordinador-general: ""
+editor1: ""
+editor2: ""
 format:
  html:
   respect-user-color-scheme: true
@@ -33,6 +45,7 @@ format:
   lang: es
   date-format: "[Última actulización] DD, MMMM, YYYY"
  pdf:
+  geometry: [top=3cm, right=3cm, bottom=3cm, left=3cm]
   template-partials: 
    - before-body.tex
    - _affiliations.tex
@@ -40,32 +53,7 @@ format:
   date-format: DD, MMMM, YYYY
   toc: false
   linestretch: 1.5
-  jss-pdf:
-   name: An@litica
-  include-in-header: 
-    text: |
-     \usepackage{fontsize} %%%%%
-     \changefontsize{11.5pt} %%%%%
-     \usepackage{setspace} %%%%%
-     \onehalfspacing %%%%%
-     \usepackage{fontspec}  %cambiar fuente de encabezado y pie %%%%%
-     \setmainfont{Arial} %asugnar Arial como fuente sin serifa %%%%%
-     \usepackage[affil-it]{authblk}
-     \usepackage[svgnames, dvipsnames, table]{xcolor} %personalizar colores %%%%%
-     \definecolor{Pantone253C}{HTML}{AD25A8} % Color de la UAM Lerma  %%%%%
-     \usepackage{scrlayer-scrpage} %editar lineas de encabezados y pies %%%%%
-     \clearpairofpagestyles %limpiar estilos predeterminados de página %%%%%
-     \pagestyle{scrheadings} %%%%%
-     \setkomafont{pagehead}{\sffamily\normalfont} %%%%%
-     \ihead{Mata Salazar} %%%%%
-     \rohead{Capitalismo Cognitivo} %%%%%
-     \setkomafont{pagefoot}{\sffamily\normalfont} %%%%%
-     \ifoot{\vspace{-5pt} AN@LÍTICA | Vol. 6, Num. 6} %%%%%
-     \ofoot{\vspace{10pt} \pagemark} %%%%%
-     \KOMAoptions{headsepline=0.1pt, footsepline=0.1pt} 
-     \addtokomafont{headsepline}{\color{Pantone253C}} %editar colores de líneas %%%%%
-     \addtokomafont{footsepline}{\color{Pantone253C}} %%%%%
-     \addtokomafont{pagenumber}{\color{Pantone253C}} %editar color del número de página %%%%%
+  include-in-header: header-footer.tex
  epub: default
 ---
 
@@ -94,7 +82,7 @@ Nam sit amet convallis dui. Pellentesque egestas nunc eu mauris feugiat, sed dap
 ### Una tabla
 
 | **Categoría** | **Descripción** | **Código** |
-|-----------------|-----------------------------------------|---------------|
+|-----------------|--------------------------------------|-----------------|
 |  | **FORMAL** |  |
 | Página institucional primaria | Sitio donde está adscripto el académico como investigador | F_PIp |
 | Página institucional secundaria | Sitio donde está adscripto el académico como docente o realizando otras funciones | F_PIs |

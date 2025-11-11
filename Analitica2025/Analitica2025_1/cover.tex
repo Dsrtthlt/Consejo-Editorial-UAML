@@ -1,0 +1,52 @@
+% cover.tex
+% Portada con imagen de fondo y metadatos dinámicos
+% -----------------------------------------------------------------
+\thispagestyle{empty}
+\newgeometry{top=0cm, bottom=0cm, left=0cm, right=0cm}
+
+\begin{figure}[p]
+  \centering
+  % Imagen a página completa (ajustar ruta si es necesario)
+  \includegraphics[width=\paperwidth, height=\paperheight, keepaspectratio=false]{assets/images/fondo-uam.jpg}
+  
+  % Superposición de texto
+  \begin{textblock*}{\paperwidth}(0pt,0pt)
+    \color{white}  % ← Cambia según contraste de la imagen
+    \centering
+    
+    % Título
+    \vspace*{0.3\textheight}
+    {\fontsize{28}{32}\selectfont\bfseries\sffamily $title$ \par}
+    
+    % Autor(es)
+    \vspace{1.5em}
+    {\Large
+      $if(author)$
+        $for(author)$$author.name$$sep$ \and $endfor$
+      $endif$
+      \par}
+    
+    % Afiliación(es)
+    \vspace{0.8em}
+    {\large
+      $if(author.affiliation)$
+        $for(author)$$author.affiliation$$sep$ \\ $endfor$
+      $else$
+        $affiliation$
+      $endif$
+      \par}
+    
+    % Pie: revista, volumen, número, fecha
+    \vfill
+    {\large
+      $if(journal)$$journal$$endif$
+      $if(volume)$ | Vol.~$volume$$endif$
+      $if(number)$, Núm.~$number$$endif$
+      $if(date)$ — $date$$endif$
+      \par}
+    
+  \end{textblock*}
+\end{figure}
+
+\restoregeometry
+\newpage

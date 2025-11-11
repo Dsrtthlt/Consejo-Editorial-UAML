@@ -1,0 +1,33 @@
+\usepackage{fontsize} %%%%%
+  \changefontsize{11.5pt} %%%%%
+\usepackage{setspace} %%%%%
+  \onehalfspacing %%%%%
+\usepackage{fontspec}  %cambiar fuente de encabezado y pie %%%%%
+  \setmainfont{Arial} %asugnar Arial como fuente sin serifa %%%%%
+\usepackage[svgnames, dvipsnames, table]{xcolor} %personalizar colores %%%%%
+  \definecolor{Pantone253C}{HTML}{AD25A8} % Color de la UAM Lerma  %%%%%
+\usepackage{scrlayer-scrpage} %editar lineas de encabezados y pies %%%%%
+  \clearpairofpagestyles
+  \pagestyle{scrheadings}
+  \setkomafont{pagehead}{\sffamily\normalfont}
+    \ihead{$if(author)$$author$$endif$}
+    \rohead{$if(short-title)$$short-title$$else$$title$$endif$}
+  \setkomafont{pagefoot}{\sffamily\normalfont}
+    \ifoot{%
+      $if(journal)$$journal$$else$[Sin revista]$endif$%
+      $if(volume)$ | Vol.~$volume$$endif$%
+      $if/number)$, Núm.~$number$$endif$%
+    }
+  \ofoot{\vspace{10pt} \pagemark}
+  \KOMAoptions{headsepline=0.1pt, footsepline=0.1pt}
+  \addtokomafont{headsepline}{\color{Pantone253C}}
+  \addtokomafont{footsepline}{\color{Pantone253C}}
+  \addtokomafont{pagenumber}{\color{Pantone253C}}
+\usepackage[absolute,overlay]{textpos}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=Pantone253C,
+  urlcolor=Pantone253C
+}
